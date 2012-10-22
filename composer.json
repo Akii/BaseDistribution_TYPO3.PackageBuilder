@@ -6,15 +6,19 @@
         {
             "type": "composer",
             "url": "http://ci.typo3.robertlemke.net/job/composer-packages/ws/repository/"
-        }
-    ],
+        },
+		{
+			"type": "vcs",
+			"url": "http://github.com/nicodh/TYPO3.PackageBuilder"
+		}
+	],
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
     "require": {
         "typo3/flow": "dev-master",
-        "typo3/welcome": "dev-master"
+        "typo3/package-builder": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",

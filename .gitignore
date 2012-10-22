@@ -1,0 +1,12 @@
+/Build/
+/Configuration/*
+!/Configuration/Routes.yaml
+/Data/
+/Packages/
+/Web/
+/Readme.txt
+/Upgrading.txt
+/flow
+/flow.bat
+composer.lock
+/.idea*
