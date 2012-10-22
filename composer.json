@@ -10,6 +10,17 @@
 		{
 			"type": "vcs",
 			"url": "http://github.com/nicodh/TYPO3.PackageBuilder"
+		},{
+			"type": "vcs",
+			"url": "http://github.com/nicodh/TYPO3.Ice"
+		},
+		{
+			"type": "vcs",
+			"url": "http://github.com/nicodh/php_parser_api"
+		},
+		{
+			"type": "vcs",
+			"url": "http://github.com/radmiraal/Radmiraal.Emberjs"
 		}
 	],
     "config": {
@@ -18,7 +29,7 @@
     },
     "require": {
         "typo3/flow": "dev-master",
-        "typo3/package-builder": "dev-master"
+        "typo3/packagebuilder": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",
