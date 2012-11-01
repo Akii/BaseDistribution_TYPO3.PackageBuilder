@@ -28,13 +28,13 @@
         "bin-dir": "bin"
     },
     "require": {
-        "typo3/flow": "dev-master",
-        "typo3/packagebuilder": "dev-master"
+        "typo3/flow": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",
         "typo3/buildessentials": "dev-master",
-        "mikey179/vfsstream": "1.1.*"
+        "mikey179/vfsstream": "1.1.*",
+		"typo3/packagebuilder": "dev-master"
     },
     "minimum-stability": "dev",
     "scripts": {
